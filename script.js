@@ -23,8 +23,13 @@ function myFunction() {
     if (length2 == 1) {
         min = "0" + min
     }
+    let length3 = sec.toString().length;;
+    if (length3 == 1) {
+        sec = "0" + sec
+    }
 
     var time = hr + " : " + min + " : " + sec + " " + am_pm;
     var number = ""+time;
     document.getElementById("timee").innerHTML = number;
 }
+
