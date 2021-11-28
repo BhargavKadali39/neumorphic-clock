@@ -1,4 +1,3 @@
-
 setInterval(myFunction, 1000);
 
 function myFunction() {
@@ -16,14 +15,16 @@ function myFunction() {
         hr = 12;
         am_pm = "AM";
     }
-    let length = hr.length;
+    let length = hr.toString().length;;
     if (length == 1) {
         hr = "0" + hr
     }
-
+    let length2 = min.toString().length;;
+    if (length2 == 1) {
+        min = "0" + min
+    }
 
     var time = hr + " : " + min + " : " + sec + " " + am_pm;
     var number = ""+time;
     document.getElementById("timee").innerHTML = number;
 }
-
