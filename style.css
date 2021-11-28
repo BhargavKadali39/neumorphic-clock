@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
 body{
     background-color: #0f3150;
     display: flex;
@@ -50,19 +52,39 @@ body{
     margin: -100px 0 0 -150px ;
     border-radius: 10px;
     background: #0F3150;
-    box-shadow: inset 9px 9px 18px #1d4870,
+    box-shadow: inset 9px 9px 18px #215381,
                 inset -9px -9px 18px #061420;
 
 }
 
 #timee{
+    user-select: none;
     position: relative;
-    color: #0e3253;
+    color: #02213d;
+    font-family: 'Merriweather', serif;
     top: 45%;
     left: 50%;
     height: 50px;
     width: 150px;
-    font-size: 35px;
-    margin: 0 0 0 -111px;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin: 0 0 0 -120px;
     text-shadow: -3px 0px 2px #114363,0px -3px 2px #114363,0px 3px 2px #061421,3px 0px 2px #061421;
+}
+
+.pallet{
+    position: relative;
+    display: flex;
+    top: 20%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+p{
+    margin: 0 0 5px 0;
+    line-height:50px;
+    color: #91E5F6;
+    width: 96%;
+    height: 50px;
+    border: 2px solid #95d2df;
 }
