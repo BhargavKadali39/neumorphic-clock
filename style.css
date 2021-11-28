@@ -55,31 +55,15 @@ body{
 
 }
 
-
-
-/* 
-.outer2{
-    margin: 110px 0 0 10px;
-    height: 630px;
-    width: 380px;
-    border-radius: 15px;
-    background: #103252;
-    box-shadow: inset 7px 7px 14px #061421,
-                inset -7px -7px 14px #1a5083;
-} */
-
-
-/* 
-.sss{
-    content: '';
-    position: absolute;
-    height: 620px;
-    width: 380px;
+#timee{
+    position: relative;
+    color: aliceblue;
     top: 50%;
     left: 50%;
-    border-radius: 20px;
-    margin: -320px 0 0 -190px;
-    background-color: #5c1633;
-    box-shadow:  50px 50px 100px #0a2237,
-                -50px -50px 100px #144069;
-} */
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    margin: 10px 0 0 -65px;
+    text-shadow: 3px 3px 3px white;
+}
+
