@@ -50,20 +50,19 @@ body{
     margin: -100px 0 0 -150px ;
     border-radius: 10px;
     background: #0F3150;
-    box-shadow: inset 9px 9px 18px #061420,
-                inset -9px -9px 18px #184e80;
+    box-shadow: inset 9px 9px 18px #1d4870,
+                inset -9px -9px 18px #061420;
 
 }
 
 #timee{
     position: relative;
-    color: aliceblue;
-    top: 50%;
+    color: #0e3253;
+    top: 45%;
     left: 50%;
     height: 50px;
     width: 150px;
-    font-size: 25px;
-    margin: 10px 0 0 -65px;
-    text-shadow: 3px 3px 3px white;
+    font-size: 35px;
+    margin: 0 0 0 -111px;
+    text-shadow: -3px 0px 2px #114363,0px -3px 2px #114363,0px 3px 2px #061421,3px 0px 2px #061421;
 }
-
