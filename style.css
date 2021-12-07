@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
 
 body{
     background-color: #0f3150;
@@ -61,7 +62,7 @@ body{
 #timee{
     user-select: none;
     position: relative;
-    color: #02213d;
+    color: #6691ac; /*#9a9a9a*/
     font-family: 'Merriweather', serif;
     top: 45%;
     left: 50%;
@@ -70,7 +71,7 @@ body{
     font-size: 30px;
     word-spacing: 5px;
     margin: 0 0 0 -120px;
-    text-shadow: -3px 0px 2px #114363,0px -3px 2px #114363,0px 3px 2px #061421,3px 0px 2px #061421;
+    text-shadow: -3px 0px 2px #061421,0px -3px 2px #061421,0px 3px 2px #061421,3px 0px 2px #061421;
     transition: all 0.9s cubic-bezier(0.57, -1.38, 0.27, 1.55);
 }
 
